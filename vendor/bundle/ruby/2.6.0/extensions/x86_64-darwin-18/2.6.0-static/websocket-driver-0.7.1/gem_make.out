@@ -1,0 +1,15 @@
+current directory: /Users/dollnet208/Mashapp/vendor/bundle/ruby/2.6.0/gems/websocket-driver-0.7.1/ext/websocket-driver
+/Users/dollnet208/.rbenv/versions/2.6.3/bin/ruby -I /Users/dollnet208/.rbenv/versions/2.6.3/lib/ruby/site_ruby/2.6.0 -r ./siteconf20191002-74524-k5nv3j.rb extconf.rb
+creating Makefile
+
+current directory: /Users/dollnet208/Mashapp/vendor/bundle/ruby/2.6.0/gems/websocket-driver-0.7.1/ext/websocket-driver
+make "DESTDIR=" clean
+
+current directory: /Users/dollnet208/Mashapp/vendor/bundle/ruby/2.6.0/gems/websocket-driver-0.7.1/ext/websocket-driver
+make "DESTDIR="
+compiling websocket_mask.c
+linking shared-object websocket_mask.bundle
+
+current directory: /Users/dollnet208/Mashapp/vendor/bundle/ruby/2.6.0/gems/websocket-driver-0.7.1/ext/websocket-driver
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 websocket_mask.bundle ./.gem.20191002-74524-wit41i

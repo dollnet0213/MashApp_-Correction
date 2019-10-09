@@ -1,0 +1,15 @@
+current directory: /Users/dollnet208/Mashapp/vendor/bundle/ruby/2.6.0/gems/bindex-0.8.1/ext/skiptrace
+/Users/dollnet208/.rbenv/versions/2.6.3/bin/ruby -I /Users/dollnet208/.rbenv/versions/2.6.3/lib/ruby/site_ruby/2.6.0 -r ./siteconf20191002-74524-1xkjg2b.rb extconf.rb
+creating Makefile
+
+current directory: /Users/dollnet208/Mashapp/vendor/bundle/ruby/2.6.0/gems/bindex-0.8.1/ext/skiptrace
+make "DESTDIR=" clean
+
+current directory: /Users/dollnet208/Mashapp/vendor/bundle/ruby/2.6.0/gems/bindex-0.8.1/ext/skiptrace
+make "DESTDIR="
+compiling cruby.c
+linking shared-object skiptrace/internal/cruby.bundle
+
+current directory: /Users/dollnet208/Mashapp/vendor/bundle/ruby/2.6.0/gems/bindex-0.8.1/ext/skiptrace
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 cruby.bundle ./.gem.20191002-74524-1uinu43/skiptrace/internal

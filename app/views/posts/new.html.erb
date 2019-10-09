@@ -1,0 +1,23 @@
+<div class ="main posts-new">
+    <div class="container">
+        <h1 class="form-heading">筋トレ方法を投稿する</h1>
+            <%= form_tag("/posts/create",{multipart: true}) do %>
+        <div class ="form">
+            <div class ="form-body">
+                <% @post.errors.full_messages.each do |message| %>
+                    <div class="form-error">
+                        <%= message %>
+                    </div>
+                <% end %>
+                <p> 筋トレ名 </p>
+                <input name="title" value="<%= @post.title %>">
+                <p> 筋トレ方法 </p>
+                <textarea name="content"><%= @post.content %></textarea>
+                <p> 説明画面 </p>
+                <input name="image" type="file" >
+                <input type="submit" value="投稿">
+            </div>
+        </div>
+             <% end %>
+    </div>
+</div>
