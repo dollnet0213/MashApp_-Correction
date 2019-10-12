@@ -1,0 +1,48 @@
+current directory: /Users/dollnet208/Mashapp/gems/ruby/2.6.0/gems/google-cloud-debugger-0.34.0/ext/google/cloud/debugger/debugger_c
+/Users/dollnet208/.rbenv/versions/2.6.3/bin/ruby -I /Users/dollnet208/.rbenv/versions/2.6.3/lib/ruby/site_ruby/2.6.0 -r ./siteconf20191010-36147-1db5na4.rb extconf.rb
+creating Makefile
+
+current directory: /Users/dollnet208/Mashapp/gems/ruby/2.6.0/gems/google-cloud-debugger-0.34.0/ext/google/cloud/debugger/debugger_c
+make "DESTDIR=" clean
+
+current directory: /Users/dollnet208/Mashapp/gems/ruby/2.6.0/gems/google-cloud-debugger-0.34.0/ext/google/cloud/debugger/debugger_c
+make "DESTDIR="
+compiling debugger.c
+compiling evaluator.c
+compiling tracer.c
+tracer.c:84:29: warning: implicit conversion loses integer precision: 'long' to 'int' [-Wshorten-64-to-32]
+    breakpoints_paths_len = RARRAY_LEN(breakpoints_paths);
+                          ~ ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/dollnet208/.rbenv/versions/2.6.3/include/ruby-2.6.0/ruby/ruby.h:1058:23: note: expanded from macro 'RARRAY_LEN'
+#define RARRAY_LEN(a) rb_array_len(a)
+                      ^~~~~~~~~~~~~~~
+tracer.c:117:33: warning: implicit conversion loses integer precision: 'long' to 'int' [-Wshorten-64-to-32]
+    int breakpoints_paths_len = RARRAY_LEN(breakpoints_paths);
+        ~~~~~~~~~~~~~~~~~~~~~   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/dollnet208/.rbenv/versions/2.6.3/include/ruby-2.6.0/ruby/ruby.h:1058:23: note: expanded from macro 'RARRAY_LEN'
+#define RARRAY_LEN(a) rb_array_len(a)
+                      ^~~~~~~~~~~~~~~
+tracer.c:130:41: warning: implicit conversion loses integer precision: 'long' to 'int' [-Wshorten-64-to-32]
+            int breakpoints_lines_len = RARRAY_LEN(breakpoints_lines);
+                ~~~~~~~~~~~~~~~~~~~~~   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/dollnet208/.rbenv/versions/2.6.3/include/ruby-2.6.0/ruby/ruby.h:1058:23: note: expanded from macro 'RARRAY_LEN'
+#define RARRAY_LEN(a) rb_array_len(a)
+                      ^~~~~~~~~~~~~~~
+tracer.c:301:30: warning: implicit conversion loses integer precision: 'long' to 'int' [-Wshorten-64-to-32]
+    c_caller_locations_len = RARRAY_LEN(caller_locations);
+                           ~ ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Users/dollnet208/.rbenv/versions/2.6.3/include/ruby-2.6.0/ruby/ruby.h:1058:23: note: expanded from macro 'RARRAY_LEN'
+#define RARRAY_LEN(a) rb_array_len(a)
+                      ^~~~~~~~~~~~~~~
+tracer.c:493:21: warning: implicit conversion loses integer precision: 'long' to 'int' [-Wshorten-64-to-32]
+    c_threads_len = RARRAY_LEN(threads);
+                  ~ ^~~~~~~~~~~~~~~~~~~
+/Users/dollnet208/.rbenv/versions/2.6.3/include/ruby-2.6.0/ruby/ruby.h:1058:23: note: expanded from macro 'RARRAY_LEN'
+#define RARRAY_LEN(a) rb_array_len(a)
+                      ^~~~~~~~~~~~~~~
+5 warnings generated.
+linking shared-object google/cloud/debugger/debugger_c.bundle
+
+current directory: /Users/dollnet208/Mashapp/gems/ruby/2.6.0/gems/google-cloud-debugger-0.34.0/ext/google/cloud/debugger/debugger_c
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 debugger_c.bundle ./.gem.20191010-36147-1s0jfdk/google/cloud/debugger

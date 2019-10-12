@@ -1,0 +1,9 @@
+entrypoint: bundle exec rackup --port $PORT
+env: flex
+runtime: ruby
+
+env_variables:
+ SECRET_KEY_BASE: 2a3276a8e958a8367c175f491b72b88f82922143fd919e7de0e5fdac2751c38a98841c71fd15ee5b539ed309c352b058656971e0adcfeaafc3d6ce681d74462b
+
+beta_settings:
+ cloud_sql_instances: masha-255301:asia-northeast1:rails-cloudsql-instance
