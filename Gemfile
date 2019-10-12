@@ -74,3 +74,5 @@ gem "mysql2", "~> 0.5.2"
 gem "appengine", "~> 0.4.5"
 
 gem "stackdriver"
+
+gem "sprockets"

@@ -309,6 +309,7 @@ DEPENDENCIES
   selenium-webdriver
   spring
   spring-watcher-listen (~> 2.0.0)
+  sprockets
   sqlite3 (~> 1.3.6)
   stackdriver
   turbolinks (~> 5)
